@@ -1,3 +1,4 @@
 # Ignore the Lung Cancer Dataset directory
 Lung Cancer Dataset/
 Lung Cancer Dataset/lung_colon_image_set/
+venv
