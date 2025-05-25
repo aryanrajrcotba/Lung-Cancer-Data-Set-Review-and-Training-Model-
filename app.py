@@ -59,7 +59,7 @@ def index():
             # Get predictions
             probabilities, status, predicted_class = predict_lung_cancer(filepath)
             
-            # Clean up the uploaded file
+            
             os.remove(filepath)
     
     return render_template('index.html', 
