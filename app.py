@@ -56,7 +56,7 @@ def index():
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
             file.save(filepath)
             
-            # Get predictions
+            
             probabilities, status, predicted_class = predict_lung_cancer(filepath)
             
             
